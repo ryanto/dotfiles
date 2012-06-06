@@ -1,0 +1,14 @@
+colorscheme vividchalk
+
+" lets you keep indenting or outdenting without reselecting
+vnoremap < <gv
+vnoremap > >gvi
+
+set nobackup
+set nowritebackup
+set noswapfile
+
+nmap <SPACE> <SPACE>:noh<CR>
+nmap <C-a> <C-w>
+cnoreabbrev W w
+

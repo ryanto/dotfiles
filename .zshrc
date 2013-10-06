@@ -26,13 +26,8 @@ plugins=(ruby rails git bundler)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/Library/PostgreSQL/9.0/bin/:/usr/bin/local:/Users/rtoronto/.rvm/bin:/bin:/sbin
-export PATH=$PATH:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:
+export PATH=/usr/bin/local:$HOME/.rvm/bin:/bin:/sbin:$HOME/bin
+export PATH=$PATH:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+export PATH=$PATH:/usr/local/lib/node_modules
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-
-# node
-export PATH=/usr/local/lib/node_modules:$PATH
-
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

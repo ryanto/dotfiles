@@ -1,0 +1,24 @@
+[user]
+	name = Ryan Toronto
+	email = ryanto@gmail.com
+
+[color]
+	ui = true
+
+[alias]
+    pf = push --force-with-lease
+    aa = !git add -A && git commit --all --amend --no-edit
+    logg = log --graph --decorate --oneline --abbrev-commit
+    ca = !git add -A && git commit
+    undo-commit = reset --soft HEAD^
+    cleanup-main = "!f() { \
+    git remote prune origin && git prune && git branch --merged | grep  -v '\\*\\|main\\|develop' | xargs -n 1 git branch -d \
+    git checkout -q main && git for-each-ref refs/heads/ \"--format=%(refname:short)\" | while read branch; do mergeBase=$(git merge-base main $branch) && [[ $(git cherry main $(git commit-tree $(git rev-parse $branch^{tree}) -p $mergeBase -m _)) == "-"* ]] && git branch -D $branch; done \
+  }; f"
+
+[push]
+	default = current
+
+[pull]
+	rebase = true
+	default = current

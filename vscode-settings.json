@@ -1,0 +1,122 @@
+{
+    "debug.node.autoAttach": "off",
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.fontSize": 14,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Menlo, Consolas, DejaVu Sans Mono, monospace",
+    "workbench.fontAliasing": "auto",
+    "explorer.confirmDragAndDrop": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[handlebars]": {
+        "editor.defaultFormatter": "mfeckies.handlebars-formatter"
+    },
+    "[mdx]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 80,
+    },
+    "git.enableSmartCommit": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "git-commit",
+        "go",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "latex",
+        "less",
+        "markdown",
+        "mdx",
+        "php",
+        "plaintext",
+        "pug",
+        "python",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yaml",
+        "yml"
+    ],
+    "cSpell.language": "en,en-US",
+    "git.autofetch": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "html.format.enable": false,
+    "git.confirmSync": false,
+    "editor.cursorBlinking": "solid",
+    "vim.foldfix": true,
+    "workbench.activityBar.visible": true,
+    "editor.tabSize": 2,
+    "editor.renderIndentGuides": false,
+    "scm.diffDecorationsGutterVisibility": "hover",
+    "scm.diffDecorationsGutterWidth": 2,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo"
+                }
+            ]
+        }
+    ],
+    "prettier.requireConfig": true,
+    "explorer.confirmDelete": false,
+    "search.exclude": {
+        "dist": true,
+        "static/old": true,
+        "yarn.lock": true
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "autoimport.filesToScan": "**/*.{ts,tsx,js,jsx}",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.useLanguageServer": true,
+    "vscode-graphql.showExecCodelens": false,
+    "cSpell.userWords": [
+        "editor",
+        "formik",
+        "tiptap"
+    ]
+}
